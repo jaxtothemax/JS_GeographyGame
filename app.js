@@ -30,9 +30,9 @@ let capitalCity = readline.question(`What's the capital city of ${randomCountry}
 const getKeyByValue = (object, value) => {
   // key are actual keys object[key] are values
   if (Object.keys(object).some(key => value === object[key] && randomCountry === key)) {
-    console.log("That's correct!");
+    console.log("That's correct, continue!");
   } else {
-    console.log("idiot");
+    console.log("That's incorrect, Google it!");
   };
       
 }
